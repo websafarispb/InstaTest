@@ -42,4 +42,6 @@ public abstract class AbstractTest {
             System.out.println("Page can't download completely time - " + (endTime - startTime));
         }
     }
+
+
 }
