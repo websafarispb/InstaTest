@@ -40,10 +40,7 @@ public class FirstTest extends AbstractTest {
 
         WebElement buttonSave = getWebElementByLocator(saveButton);
         buttonSave.click();
-//
-//        WebElement buttonNotNow = getWebElementByLocator(xpathButtonNotNow);
-//        buttonNotNow.click();
-//
+
         WebElement buttonNotNow2 = getWebElementByLocator(xpathButtonNotNow2);
         buttonNotNow2.click();
 
