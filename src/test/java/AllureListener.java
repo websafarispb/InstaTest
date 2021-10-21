@@ -11,6 +11,7 @@ public class AllureListener implements ITestListener {
     @Override
     public void onTestFailure(ITestResult result) {
         WebDriver driver = (WebDriver) result.getAttribute("driver");
+        attachScreenShot(driver);
     }
 
     @Attachment(type = "image/png", fileExtension = ".png")
