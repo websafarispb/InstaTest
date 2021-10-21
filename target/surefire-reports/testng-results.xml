@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-17T10:58:56 MSK" name="firstTests" finished-at="2021-10-17T10:59:09 MSK" duration-ms="12960">
+  <suite started-at="2021-10-20T20:55:11 MSK" name="firstTests" finished-at="2021-10-20T20:55:22 MSK" duration-ms="11437">
     <groups>
     </groups>
-    <test started-at="2021-10-17T10:58:56 MSK" name="allFirstTest" finished-at="2021-10-17T10:59:09 MSK" duration-ms="12960">
+    <test started-at="2021-10-20T20:55:11 MSK" name="allFirstTest" finished-at="2021-10-20T20:55:22 MSK" duration-ms="11437">
       <class name="SelenideFirstTest">
-        <test-method signature="googleTest()[pri:0, instance:SelenideFirstTest@70beb599]" started-at="2021-10-17T10:58:56 MSK" name="googleTest" finished-at="2021-10-17T10:59:03 MSK" duration-ms="7175" status="PASS">
+        <test-method signature="googleTest()[pri:0, instance:SelenideFirstTest@545f80bf]" started-at="2021-10-20T20:55:11 MSK" name="googleTest" finished-at="2021-10-20T20:55:17 MSK" duration-ms="5452" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleTest -->
-        <test-method signature="userCanLoginByUsername()[pri:0, instance:SelenideFirstTest@70beb599]" started-at="2021-10-17T10:59:03 MSK" name="userCanLoginByUsername" finished-at="2021-10-17T10:59:09 MSK" duration-ms="5759" status="PASS">
+        <test-method signature="userCanLoginByUsername()[pri:0, instance:SelenideFirstTest@545f80bf]" started-at="2021-10-20T20:55:17 MSK" name="userCanLoginByUsername" finished-at="2021-10-20T20:55:22 MSK" duration-ms="5817" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userCanLoginByUsername -->

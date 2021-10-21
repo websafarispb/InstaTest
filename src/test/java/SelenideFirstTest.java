@@ -6,8 +6,10 @@ import static com.codeborne.selenide.Selenide.open;
 import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+@Listeners({AllureListener.class})
 public class SelenideFirstTest {
 
     @Test
