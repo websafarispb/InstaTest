@@ -2,6 +2,8 @@ import static com.codeborne.selenide.Condition.disappear;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.testng.Assert.assertTrue;
 
 import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.By;
@@ -33,5 +35,7 @@ public class SelenideFirstTest {
         GoogleSearchPage searchPage = new GoogleSearchPage();
         GoogleResultsPage resultsPage = searchPage.search("EPAM");
         resultsPage.results.forEach(WebElement::getText);
+        assertTrue(false);
+
     }
 }
