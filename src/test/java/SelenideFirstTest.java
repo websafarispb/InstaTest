@@ -12,7 +12,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 @Listeners({AllureListener.class})
-public class SelenideFirstTest {
+public class SelenideFirstTest extends AbstractTest {
 
     @Test
     public void userCanLoginByUsername() {
@@ -31,11 +31,10 @@ public class SelenideFirstTest {
     }
 
     @Test
-    public  void googleTest(){
+    public void googleTest() {
         GoogleSearchPage searchPage = new GoogleSearchPage();
         GoogleResultsPage resultsPage = searchPage.search("EPAM");
         resultsPage.results.forEach(WebElement::getText);
         assertTrue(false);
-
     }
 }
